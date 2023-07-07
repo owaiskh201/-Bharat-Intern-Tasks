@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Popflix - Homepage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+    }
+    
+    .navbar {
+      background-color: #000;
+      padding: 10px;
+      text-align: right;
+    }
+    
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+    
+    .header {
+      padding: 100px 0;
+      text-align: center;
+      background-image: url('netflix-banner.jpg');
+      background-size: cover;
+      color: #fff;
+    }
+    
+    .header h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    
+    .cta {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .cta a {
+      display: inline-block;
+      background-color: #e50914;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+      font-weight: bold;
+    }
+    
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+    
+    .content h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    
+    .content p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+    .footer {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#">Sign In</a>
+  </div>
+  
+  <div class="header">
+    <h1>Welcome to Popflix</h1>
+    <div class="cta">
+      <a href="#">Get Started</a>
+    </div>
+  </div>
+  
+  <div class="content">
+    <h2>Unlimited movies, TV shows, and more.</h2>
+    <p>Watch anywhere. Cancel anytime.</p>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <form>
+      <input type="email" placeholder="Email address">
+      <input type="submit" value="Get Started">
+    </form>
+  </div>
+  
+  <div class="footer">
+    <p>&copy; 2023 Popflix. All rights reserved.</p>
+  </div>
+</body>
+</html>
